@@ -3,6 +3,9 @@
 
 void swap( Node *pNode_A, Node *pNode_B);
 
+int (*pComparator) ( RentalProperty *a, RentalProperty *b);
+
+
 struct _Node{
 	RentalProperty *pRental;
 	struct _Node *pNext;
