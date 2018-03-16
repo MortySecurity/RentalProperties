@@ -1,3 +1,5 @@
+#include "node.h"
+
 #ifndef RENT_H_
 #define RENT_H_
 
