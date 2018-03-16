@@ -11,6 +11,6 @@ struct PropertRental{
 	int nBedRoom;
 	int nRent;
 	int nStreetNumber;
-}
+};
 
 #endif
