@@ -7,18 +7,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <Node.h>
-#include <Node.c>
-#include <rent.h>
-#include <rent.c>
-#include <sort.h>
-#include <sort.c>
-
-
-int ranNum(int min, int max){ //simply returns a random number based on time and the min/max
-int ranNum = rand()%(max + 1 - min) + min;
-return ranNum;	
-}
+#include "Node.h"
+#include "rent.h"
+#include "sort.h"
 
 void help()//Print out a brief list all the available commands 
 {
@@ -128,7 +119,7 @@ void main()
 	
 	srand(time(NULL));
 	
-	Street streets[] = {
+	Street Streets[] = {
 		{"First Street", ranNum(40, 5)*100},
 		{"Second Street", ranNum(40, 5)*100},
 		{"Third Street", ranNum(40, 5)*100},
