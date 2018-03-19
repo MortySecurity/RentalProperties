@@ -1,6 +1,6 @@
 CC = gcc
-CC_FLAGS = -g -pedantic -Wall -W -STD=99
-FILES = main.c rental.c node.c sorting.c
+CC_FLAGS = -g -pedantic -Wall -W 
+FILES = main.c rental.c Node.c sort.c
 OUT_EXE = ass1
 
 build: $(FILES)
