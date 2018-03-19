@@ -52,7 +52,7 @@ int get_nBedRoom(PropertRental *property){
 int get_nRent(PropertRental *property){ 
     return property->nRent;
 }
-
+s
 int get_nStreenNumber(PropertRental *property){
     return property->nStreenNumber;
 }
