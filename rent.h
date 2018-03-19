@@ -6,8 +6,8 @@
 
 #define RENT_H_
 
-void set_StreetName(Street *pntstreet, char *name);
-void set_fltDistance(Street *pntstreet);
+//void set_StreetName(Street *pntstreet, char *name);
+//void set_fltDistance(Street *pntstreet);
 
 char *get_StreetName(Street *pntstreet);
 int get_fltDistance(Street *pntstreet);
