@@ -7,13 +7,20 @@ int ranNum(int min, int max){ //simply returns a random number based on time and
 
 }
 
-void set_StreetName(Street *pntstreet, char *name){
+PropertRental *makeRental()
+{
+	PropertRental newRental = (ranNum(0, 9), ranNum(1, 4), ranNum(4, 12)*50, ranNum(1, 200));
+	PropertRental *pRental = &newRental;
+	return *pRental;
+}
+
+/*void set_StreetName(Street *pntstreet, char *name){
     pntstreet->StreetName = name;
 }
 
 void set_fltDistance(Street *pntstreet){
     pntstreet->fltDistance = 100*ranNum(4,50);
-}
+}*/
 
 char *get_StreetName(Street *pntstreet){
     return pntstreet->StreetName;
@@ -23,7 +30,7 @@ int get_fltDistance(Street *pntstreet) {
     return pntstreet->fltDistance;
 }
 
-void set_pntStreet(PropertRental *property, Street *streets, int N){
+/*void set_pntStreet(PropertRental *property, Street *streets, int N){
     property->pntStreet = streets[ranNum(0,N-1)];
 }
 
@@ -38,12 +45,12 @@ void set_nRent(PropertRental *property){
 
 void set_nStreetNumber(PropertRental *property){
     property->nStreetNumber = ranNum(1,200);
-}
+}*/
 
 
-struct *get_pntStreet(PropertRental *property){
+/*struct *get_pntStreet(PropertRental *property){
     return property->pntStreet;
-}
+}*/
 
 int get_nBedRoom(PropertRental *property){
     return property->nBedRoom;
