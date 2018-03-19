@@ -18,7 +18,9 @@ void help();
 void all(Node **ppCurrentList, Node *pDefault, Node *pFavs);
 void defaultList(Node **ppCurrentList,Node *pDefault);
 void favs(Node **ppCurrentList, Node *pFavs);
-
+void sort();
+int next(Node **ppCurrentList, int count);
+void left( Node **ppCurrentList, int count);
 
 void help()//Print out a brief list all the available commands 
 {
