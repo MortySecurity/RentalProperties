@@ -1,3 +1,4 @@
+
 /*
 * Todd Hakvoort
 * Lab4
@@ -10,6 +11,14 @@
 #include "Node.h"
 #include "rent.h"
 #include "sort.h"
+
+
+int right( Node **ppCurrentList, Node *pFavs, int count);
+void help();
+void all(Node **ppCurrentList, Node *pDefault, Node *pFavs);
+void defaultList(Node **ppCurrentList,Node *pDefault);
+void favs(Node **ppCurrentList, Node *pFavs);
+
 
 void help()//Print out a brief list all the available commands 
 {
