@@ -1,4 +1,4 @@
-
+#include "Node.h"
 int getCount( Node *pHead )//counts list, returns num of items in list
 {
 	int count = 0;

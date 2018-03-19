@@ -1,6 +1,10 @@
 /*
 Bayan Mansour
 */
+#include "rent.h"
+#include "Node.h"
+#include <stdio.h>
+
 int ranNum(int min, int max){ //simply returns a random number based on time and the min/max
     int ranNum = rand()%(max + 1 - min) + min;
     return ranNum;	

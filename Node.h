@@ -4,7 +4,7 @@
 typedef struct Node
 {
 	Rental thisRental;
-	Node *pNextNode;
+	struct Node *pNextNode;
 }Node;
 
 int getCount( Node *pHead );
