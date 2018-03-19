@@ -1,9 +1,5 @@
 #include "node.h"
-
-
-
 #ifndef RENT_H_
-
 #define RENT_H_
 
 void set_StreetName(Street *pntstreet, char *name);
