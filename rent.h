@@ -12,12 +12,12 @@
 char *get_StreetName(Street *pntstreet);
 int get_fltDistance(Street *pntstreet);
 
-void set_pntStreet(PropertRental *property, Street *streets, int N);
-void set_nBedRoom(PropertRental *property);
-void set_nRent(PropertRental *property);
-void set_nStreetNumber(PropertRental *property);
+//void set_pntStreet(PropertRental *property, Street *streets, int N);
+//void set_nBedRoom(PropertRental *property);
+//void set_nRent(PropertRental *property);
+//void set_nStreetNumber(PropertRental *property);
 
-struct *get_pntStreet(PropertRental *property);
+//struct *get_pntStreet(PropertRental *property);
 int get_nBedRoom(PropertRental *property);
 int get_nRent(PropertRental *property);
 int get_nStreetNumber(PropertRental *property);
