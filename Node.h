@@ -3,7 +3,7 @@
 
 typedef struct Node
 {
-	Rental thisRental;
+	struct PropertRental thisRental;
 	struct Node *pNextNode;
 }Node;
 
