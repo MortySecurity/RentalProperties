@@ -17,7 +17,7 @@ typedef struct Node
 {
 	Rental thisRental;
 	Node *pNextNode;
-}
+}_Node;
 
 
 #endif
