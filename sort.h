@@ -11,6 +11,12 @@ struct _Node{
 	struct _Node *pNext;
 } Node;
 
+int compareByRent(propertyValues firstRoomVal, propertyValues secondRoomVal);
+int compareByAddress(propertyValues firstRoomVal, propertyValues secondRoomVal);
+int sortByRent(propertyValues publicRooms[], int n);
+void sortyByRent(propertyValues publicRooms[],int n);
+void sortByRooms(propertyValues publicRooms[], int n);
+void sortByAddress(propertyValues publicRooms[], int n);
 
 
 
