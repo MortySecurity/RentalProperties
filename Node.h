@@ -1,6 +1,11 @@
 #ifndef Node_H_   /* Include guard */
 #define Node_H_
 
+typedef struct Node
+{
+	Rental thisRental;
+	Node *pNextNode;
+}Node;
 
 int getCount( Node *pHead );
 
@@ -13,11 +18,7 @@ void insertNode( Node **ppHead, Node *pNewNode, int i );
 Node *removeNodeAtIndex( Node **ppHead, int i );
 
 
-typedef struct Node
-{
-	Rental thisRental;
-	Node *pNextNode;
-}_Node;
+
 
 
 #endif
